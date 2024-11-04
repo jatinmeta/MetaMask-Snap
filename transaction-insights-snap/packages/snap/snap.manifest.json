@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "An example Snap written in TypeScript.",
+  "proposedName": "Gas Percentage Calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "17jU829/h77Q+vBjIlYQAXwyRDnf9DwOqpIIuj6aJG4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/gas.svg",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:transaction-insight": {},
+    "endowment:ethereum-provider": {},
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
